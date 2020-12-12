@@ -13,7 +13,29 @@ module.exports = {
 	themeConfig: {
 		smoothScroll: true,
 
-		sidebar: [],
+		sidebar: [
+			{
+				title: 'Fundamentals',
+				children: [
+					'/fundamentals/content-packages',
+					'/fundamentals/xml-introduction',
+					'/fundamentals/overriding-content',
+				]
+			},
+			{
+				title: 'Scripting Reference',
+				children: [
+					'/scripting/content-types',
+					'/scripting/items',
+				]
+			},
+			{
+				title: 'Tutorials',
+				children: [
+					'tutorials/publishing-your-mod',
+				]
+			}
+		],
 
 		nav: [
 			{text: "Home", link: "/"},

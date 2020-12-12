@@ -3,7 +3,7 @@
 In the previous examples the content packages included a couple of different types of **content files**: items, characters, structures, jobs, random events and the game executable. Here’s the full list of all supported content types. Unfortunately we don’t yet have a full documentation available for modifying all of the content types, but you can use the Vanilla content files as a reference to see how they work; most of them are pretty straight-forward.
 
 Some types of content prevent players from joining servers if both the player and the server don't have the same content installed, while some can be freely installed without compatibility issues.
-The ones that cause multiplayer incompatibility are Jobs, Item, Character, Structure, LocationTypes, MapGenerationParameters, LevelGenerationParameters, Missions, LevelObjectPrefabs, RuinConfig, Outpost, Afflictions and Orders.
+The ones that cause multiplayer incompatibility are `Jobs`, `Item`, `Character`, `Structure`, `LocationTypes`, `MapGenerationParameters`, `LevelGenerationParameters`, `Missions`, `LevelObjectPrefabs`, `RuinConfig`, `Outpost`, `Afflictions` and `Orders`.
 
 Some of the content files are mandatory in core content packages. For example, you cannot have a core content package that does not include any items, characters or a game executable. The required types are `Jobs`, `Item`, `Character`, `Structure`, `Outpost`, `Text`, `Executable`, `ServerExecutable`, `LocationTypes`, `MapGenerationParameters`, `LevelGenerationParameters`, `RandomEvents`, `Missions`, `RuinConfig`, `Afflictions`, `UIStyle`, `EventManagerSettings` and `Orders`.
 

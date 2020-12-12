@@ -14,6 +14,7 @@ If you would like to contribute to the construction of the documentation, click 
 ## Scripting Reference
 
 * [Content Types](scripting/content-types.md)
+* [Items](scripting/items.md)
 
 ## Tutorials
 
