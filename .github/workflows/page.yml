@@ -18,7 +18,7 @@ jobs:
       - name: Build Site
         run: yarn docs:build
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: lftp -e "set ssl:verify-certificate false; open $remote_host; user $remote_user $remote_pass; mirror --exclude .htaccess --reverse --delete --recursion=always -vvv --dry-run docs/.vuepress/dist/ ."
         env:
           remote_host: ${{ secrets.DOCS_DEPLOY_HOST }}
