@@ -1,0 +1,29 @@
+{
+  "name": "docs.barotrauma.dev",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/Barotrauma-Modding/Documentation.git",
+
+  "author": "Barotrauma-Modding",
+  "contributors": [
+    {
+      "name": "Joshua Piper",
+      "email": "32164094+JoshPiper@users.noreply.github.com",
+      "url": "https://doctor-internet.dev/"
+    },
+    {
+      "name": "GlorifiedPig",
+      "email": "ryan@glorifiedstudios.com",
+      "url": "https://glorified.dev/"
+    }
+  ],
+
+  "dependencies": {
+    "vuepress": "^1.5.4",
+    "vuepress-plugin-clean-urls": "^1.1.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
